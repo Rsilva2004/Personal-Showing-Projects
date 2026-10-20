@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Bangers", system-ui;
+}
+
+html{
+    height: 100%;
+}
+
+.name{
+    color: #ff3cac;
+    font-size: 280px;
+    position: absolute;
+    bottom: 500px;
+    text-align: center;
+    text-shadow: 0px 0px 10px #ff3cac, 0px 0px 20px #412133, 0px 0px 30px #ff3cac, 0px 0px 40px #ff3cac, 0px 0px 50px #ff3cac, 0px 0px 60px #63304d, 0px 0px 70px #000000;
+    width: 100%;
+}
+
+.character {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 700px;
+    width: auto;
+}
+
+.texts{
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+}
+
+.tag{
+    font-size: 26px;
+    color: #ffd319;
+}
+h2{
+    font-size: 72px;
+    color: #ffffff;
+}
+
+.support_text{
+    font-size: 14px;
+    color: #ffffff;
+    text-shadow: 0px 0px 10px #ff3cac, 0px 0px 20px #412133, 0px 0px 30px #ff3cac, 0px 0px 40px #ff3cac, 0px 0px 50px #ff3cac, 0px 0px 60px #63304d, 0px 0px 70px #000000;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    background-position: center;
+    background-image: url('img/background.jpg');
+    background-size: cover;
+}
+
+.menu{
+    position: absolute;
+    display: flex;
+    bottom: 40px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+}
+
+.avatar{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top;
+    border: 2px solid #ffffff;
+}
+
+.you{
+    background-color: #ffd319;
+    padding: 20px;
+    border-radius: 50%;
+}
+
